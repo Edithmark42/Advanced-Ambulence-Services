@@ -1,0 +1,49 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body{
+    background-image: url("am.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display:flex;
+    align-items:center;
+    justify-content:center ;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.login-box{
+    width: 320px;
+    height: 390px;
+    background: radial-gradient(rgba(0,0,0,0.6,));
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    text-align: center;
+    border-bottom: 2px;
+    border-color: rgb(240, 109, 9);
+    border-style: dashed;
+    
+    /* background-color: rgb(127, 127, 131); */
+    /* opacity: 0.65; */
+}
+.login-box p{
+    color:rgb(4, 78, 101);
+    font-size: 14px;
+    font-weight: italics;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-box a{
+    background-color: rgba(255, 255, 255, 0.007);
+    text-decoration: none;
+    display: block;
+    left: 100px;
+    top: 20px;
+    position: relative;
+    width: 90px;
+    height: 20px;
+
+}

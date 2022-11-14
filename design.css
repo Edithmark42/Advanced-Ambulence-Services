@@ -1,0 +1,17 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;}
+  body
+  {
+    display: relative;
+    justify-content: center;
+    left:400px;
+    top: 500px;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image:linear-gradient(from orange to white) ;
+
+
+  }
